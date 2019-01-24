@@ -1,0 +1,22 @@
+{
+    "name": "vic/mailer",
+    "authors": [
+        {
+            "name": "viktorasj",
+            "email": "viktoras.jefimovas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "symfony/http-foundation": "^4.2",
+        "twig/twig": "^2.6",
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    }
+}
