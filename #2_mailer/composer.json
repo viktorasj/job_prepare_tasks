@@ -1,0 +1,20 @@
+{
+    "name": "vic/di_container",
+    "authors": [
+        {
+            "name": "viktorasj",
+            "email": "viktoras.jefimovas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2"
+    }
+}
