@@ -4,16 +4,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title page-title="">Mailer App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
 </head>
-<body >
-    <form method="POST">
-        <input type='email' name='msg_recipient' placeholder="Add recipient's email" autofocus>
-        <br>
-        <input type='text' name='msg_title' placeholder="Add email title">
-        <br>
-        <textarea type='text' name='msg_body' rows="4" cols="50" placeholder="Add message content"></textarea>
-        <br>
-        <button name="submit" value="send_email">Send Email</button>
-    </form>
+<body>
+<form method="POST">
+    <div class="row">
+        <div class="col-sm-12 text-center bg-secondary pt-2 pb-2">
+            <input type='email' name='usr_email' placeholder="Add your gmail username">
+            <input type='password' name='usr_psw' placeholder="Add your gmail password">
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col-sm-12 text-center bg-light">
+            <input class="mb-1" type='email' name='msg_recipient' placeholder="Add recipient's email" autofocus>
+            <br>
+            <input class="mb-1" type='text' name='msg_title' placeholder="Add email title">
+            <br>
+            <textarea class="mb-1" type='text' name='msg_body' rows="4" cols="50" placeholder="Add message content"></textarea>
+            <br>
+            <button class="text-center" name="submit" value="send_email">Send Email</button>
+        </div>
+    </div>
+</form>
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </html>
